@@ -1,7 +1,7 @@
 //configuracion del servidor
 import express from "express";
 const app = express();
-const port = process.env.port || 10000;
+const port = process.env.port || 3000;
 
 import path from "path"; //front
 const __dirname = import.meta.dirname; //front
