@@ -3,7 +3,10 @@ import pkg from "pg";
 const { Pool } = pkg;
 
 //nueva forma de importar dotenv
-process.loadEnvFile();
+//process.loadEnvFile(); //se comenta para desplegar en render y se utiliza la forma anterior a la version 21 de node
+
+import dotenv from "dotenv";
+dotenv.config();
 
 //desestructuramos las variables de entorno
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_DATABASE } = process.env;
