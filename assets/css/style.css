@@ -1,5 +1,33 @@
+.logo {
+  width: 300px; /* Ancho del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
 body {
   text-align: center;
-  background: #283593;
+  background: url(../img/audiovisuel_desktop.jpg);
   color: white;
+}
+
+.tituloD {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Color de fondo con transparencia */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  color: #ffffff; /* Color del texto */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  font-size: 24px; /* Tamaño del texto */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+.tablaD {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  border-radius: 10px;
 }
